@@ -5,20 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6b67a16-b37e-4361-a5d6-96340c9b8a96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-6/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6/src/main/java/org/aoc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/8.14/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/8.14/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/src/main/java/org/aoc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/src/main/java/org/aoc/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-8/src/main/resources/test-input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-7/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-7/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-7/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +155,7 @@
       <updated>1764966410770</updated>
       <workItem from="1764966411713" duration="9832000" />
       <workItem from="1765044900244" duration="96000" />
+      <workItem from="1765223657664" duration="9000" />
     </task>
     <servers />
   </component>

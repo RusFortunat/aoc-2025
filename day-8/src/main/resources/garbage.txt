@@ -1,0 +1,74 @@
+package org.aoc;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class NetworkProcesser {
+
+    private static int MAX_CONNECTIONS = 10;
+
+
+    // i definitely overengineer the solution, and there must be an easier approach
+    //  to solving this problem
+    public long makeCircuits(List<Vertex> vertices) {
+
+        List<Circuit> circuits = new ArrayList<>();
+
+        // i will first go over each node, and connect the two closest points
+        for (Vertex vertex : vertices) {
+            Comparator<Vertex> compareDistances = (Vertex a, Vertex b) ->
+                    Math.toIntExact((long) (distance(vertex, a) - distance(vertex, b)));
+
+            int candidatesCount = 5;
+            List<Vertex> closestNeighbors = vertices.stream()
+                .filter(v -> v != vertex).sorted(compareDistances).limit(candidatesCount).toList();
+            Vertex closestVertex = closestNeighbors.get(0);
+            closestNeighbors.removeFirst();
+            Circuit twoPointCircuit = new Circuit(
+                List.of(vertex, closestVertex),
+                List.of(distance(vertex, closestVertex)),
+                closestNeighbors);
+            circuits.add(twoPointCircuit);
+        }
+
+        // total allowed connections: 10 for test-input and 1000 for puzzle-input
+        // i will sort the circuits, by their biggest present twoPointDistances,
+        // and leave only those smallest, biggest twoPointDistances (if this makes sense)
+         Comparator<Circuit> compareLargestTwoPointDistances =
+             Comparator.comparingDouble((Circuit a) ->
+                 a.getTwoPointDistances().stream().mapToDouble(Double::doubleValue).max().orElseThrow());
+        circuits = circuits.stream().sorted(compareLargestTwoPointDistances).limit(MAX_CONNECTIONS).toList();
+
+        // now we will keep adding more vertices to existing circuits, and removing that many
+        int addedConnections = -1;
+        while (addedConnections != 0) {
+            for (Circuit circuit : circuits) {
+
+            }
+        }
+
+
+
+        return 0L;
+    }
+
+    private double distance(Vertex v1, Vertex v2) {
+        int deltaX = Math.abs(v1.getX() - v2.getX());
+        int deltaY = Math.abs(v1.getY() - v2.getY());
+        int deltaZ = Math.abs(v1.getZ() - v2.getZ());
+        return Math.sqrt(deltaX*deltaX + deltaY*deltaY + deltaZ*deltaZ);
+    }
+
+    @Data
+    @AllArgsConstructor
+    public class Circuit {
+        private List<Vertex> connectedVertices;
+        private List<Double> twoPointDistances;
+        private List<Vertex> candidateVertices; // closest, non-connected neighbors
+    }
+
+}
