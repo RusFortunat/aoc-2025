@@ -1,8 +1,10 @@
 package org.aoc;
 
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
+import java.util.Objects;
+
+@Data
 public class Vertex {
 
     private final int x;
@@ -18,10 +20,22 @@ public class Vertex {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Vertex vertex = (Vertex) o;
         return x == vertex.x && y == vertex.y && z == vertex.z;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y, z);
+    }
+
+    @Override
+    public String toString() {
+        return "Vertex{" +
+            "x=" + x +
+            ", y=" + y +
+            ", z=" + z +
+            '}';
     }
 }
