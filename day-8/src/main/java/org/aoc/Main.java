@@ -21,6 +21,10 @@ public class Main {
             long answer = networkProcesser.makeCircuits(vertices);
             System.out.println("The answer is: " + answer);
 
+            // part 2
+            long xProduct = networkProcesser.connectThemAll(vertices);
+            System.out.println("The answer to second part is: " + xProduct);
+
         } catch (IOException _ioException) {
             System.out.println("IOException caught during input reading: " + _ioException.getMessage());
         } catch (Exception ex) {
