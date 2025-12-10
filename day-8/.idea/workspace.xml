@@ -4,10 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f1a861-367f-4be0-b08e-1e30c07903e1" name="Changes" comment="">
+    <list default="true" id="36f1a861-367f-4be0-b08e-1e30c07903e1" name="Changes" comment="day-8, part 2; 20 минут заняло чтобы пробежать и получить верный ответ -- говно, но моё">
+      <change afterPath="$PROJECT_DIR$/../day-9/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/8.14/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/8.14/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/src/main/java/org/aoc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/src/main/java/org/aoc/RedRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/src/main/resources/puzzle-input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9/src/main/resources/test-input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aoc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aoc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aoc/NetworkProcesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aoc/NetworkProcesser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +71,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build day-8.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.day-8 [:org.aoc.Main.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Java Projects/aoc-2025/day-8/src/main/java/org/aoc/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build day-8.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day-8 [:org.aoc.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java Projects/aoc-2025/day-8/src/main/java/org/aoc/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.aoc.Main" />
@@ -107,10 +129,23 @@
       <workItem from="1765299581562" duration="15392000" />
       <workItem from="1765352196601" duration="9000" />
     </task>
+    <task id="LOCAL-00001" summary="day-8, part 2; 20 минут заняло чтобы пробежать и получить верный ответ -- говно, но моё">
+      <option name="closed" value="true" />
+      <created>1765359095987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765359095987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day-8, part 2; 20 минут заняло чтобы пробежать и получить верный ответ -- говно, но моё" />
+    <option name="LAST_COMMIT_MESSAGE" value="day-8, part 2; 20 минут заняло чтобы пробежать и получить верный ответ -- говно, но моё" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -119,16 +154,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/aoc/NetworkProcesser.java</url>
           <line>142</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/aoc/NetworkProcesser.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/aoc/NetworkProcesser.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
